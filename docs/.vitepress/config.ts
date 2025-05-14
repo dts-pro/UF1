@@ -4,7 +4,7 @@ export default defineConfig({
   lang: 'ca-ES',
   title: 'Fonaments de Programació',
   description: 'Unitat Formativa 01 - Fonaments de Programació',
-  base: '/vitepress-template/',
+  base: '/UF1/',
   outDir: './dist',
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
@@ -19,25 +19,25 @@ export default defineConfig({
       { text: '🏠 Inici', link: '/' },
       { text: '📋 Objectius', link: '/objectius' },
       { text: '📚 Continguts', items: [
-        { text: '1. Introducció', link: '/introduccio' },
-        { text: '2. Algoritme', link: '/algoritme' },
-        { text: '3. Cicle de Vida', link: '/cicle-vida' },
-        { text: "4. Representació d'Algoritmes", link: '/algoritmes' },
-        { text: "5. Elements d'un Programa", link: '/elements' }
+        { text: '1. Introducció', link: '/1-introduccio' },
+        { text: '2. Algoritme', link: '/2-algoritme' },
+        { text: '3. Cicle de Vida', link: '/3-cicle-vida' },
+        { text: "4. Representació d'Algoritmes", link: '/4-algoritmes' },
+        { text: "5. Elements d'un Programa", link: '/5-elements' }
       ]}
     ],
     sidebar: [
       {
-        text: '📚 Continguts',
+
         items: [
           { text: '📋 Objectius', link: '/objectius' },
-          { text: '📚 1. Introducció', link: '/introduccio' },
-          { text: '🔄 2. Algoritme', link: '/algoritme' },
-          { text: '⚡ 3. Cicle de Vida', link: '/cicle-vida' },
-          { text: "📊 4. Representació d'Algoritmes", link: '/algoritmes' },
-          { text: "🔧 5. Elements d'un Programa", link: '/elements' },
-          { text: '<img src="/vitepress-template/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-          { text: '<img src="/vitepress-template/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+          { text: '📚 1. Introducció', link: '/1-introduccio' },
+          { text: '🔄 2. Algoritme', link: '/2-algoritme' },
+          { text: '⚡ 3. Cicle de Vida', link: '/3-cicle-vida' },
+          { text: "📊 4. Representació d'Algoritmes", link: '/4-algoritmes' },
+          { text: "🔧 5. Elements d'un Programa", link: '/5-elements' },
+          { text: '<img src="/UF1/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+          { text: '<img src="/UF1/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
         ]
       }
     ],

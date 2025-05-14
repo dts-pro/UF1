@@ -75,14 +75,6 @@
   margin: 2.5rem 0 1.5rem;
 }
 
-.vp-doc h3 {
-  font-size: 1.2rem;
-  color: var(--vp-c-brand);
-  border-bottom: 2px solid var(--vp-c-brand-lighter);
-  padding-bottom: 0.5rem;
-  margin: 2.5rem 0 1.5rem;
-}
-
 /* Contenedores personalizados */
 .tip, .info {
   background: linear-gradient(135deg, #fff, #f8f8f8);
@@ -301,38 +293,3 @@ html {
     color: var(--vp-c-brand-light) !important;
   }
 }
-
-/* ─ Estil per al bloc de cita ───────────────────────────────────── */
-.vp-doc blockquote {
-  border-left: 4px solid var(--vp-c-brand);   /* línia color marca */
-  padding: 1rem 1.5rem;                       /* espai interior */
-  margin: 1.5rem 0;                           /* marge exterior */
-  background: rgb(150, 150, 150);      /* fons lleuger */
-  border-radius: 8px;                         /* cantonades arrodonides */
-}
-
-/* El text d’encapçalament (“Exemple:”) més destacat */
-.vp-doc blockquote > p:first-child {
-  font-weight: bold;
-  font-style: italic;
-  color: #e0e0e0;             /* text clar */
-  margin-bottom: 0.75rem;
-}
-
-.vp-doc blockquote > p {
-  font-style: italic;
-  color: #e0e0e0;             /* text clar */
-  margin-bottom: 0.75rem;
-}
-
-/* ─ Estil per a la imatge ────────────────────────────────────── */
-.vp-doc img {
-  display: block;
-  max-width: 100%;           /* no s’escapi del contenidor */
-  height: auto;
-  margin: 1rem auto;         /* centrat horitzontalment */
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-

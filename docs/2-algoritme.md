@@ -17,10 +17,11 @@ Si ens centrem en aquest últim, s’ha de detallar els passos necessaris per a 
 > - **Dada d'eixida**: Tassa de café.
 > - **Procediment**:
 >
+>
 > 1. Buscar un bon café mòlt.
 > 2. Col·locar aigua en la cafetera.
 > 3. Afegir café mòlt en el filtre de la cafetera.
 > 4. Encenar la cafetera i esperar que l’aigua calenta passe pel café mòlt.
 > 5. Abocar el café preparat en una tassa.
->
+> 
 > Aquest senzill exemple mostra com un algoritme guia pas a pas per a obtindre un resultat específic, en aquest cas, una tassa de café llesta per a gaudir.

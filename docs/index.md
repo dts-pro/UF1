@@ -11,7 +11,6 @@
 
 :::
 
-
 ::: info Benvinguts al Curs
 Aquest curs està dissenyat per introduir-vos als fonaments essencials de la programació. Aprendreu els conceptes bàsics, les metodologies i les eines necessàries per començar la vostra trajectòria en el món del desenvolupament de programari.
 :::
@@ -23,7 +22,7 @@ Aquest curs està dissenyat per introduir-vos als fonaments essencials de la pro
 - 📋 [**Objectius del Curs**](./objectius.md)  
   Exploració dels objectius i competències a assolir
 
-- 📚 [**1. Introducció**](./introduccio.md)  
+- 📚 [**1. Introducció**](./1-introduccio.md)  
   Fonaments bàsics de la programació
 
 - 🔄 [**2. Algoritme**](./algoritme.md)  
@@ -61,4 +60,3 @@ Aquest curs segueix una metodologia d'aprenentatge actiu, combinant teoria i pr�
 - 📝 Exercicis pràctics
 
 :::
-
