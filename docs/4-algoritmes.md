@@ -61,4 +61,4 @@ Els símbols bàsics que equivalen als elements d'un algoritme són els següent
 > ***Exemple: Diagrama de flux de l'algoritme A***
 >
 > En el següent exemple es pot veure l'algoritme A representat amb un diagrama de flux.
-> ![Imatge de diagrama de flux de l'algoritme A](img/5.2.png)
+> ![Imatge de diagrama de flux de l'algoritme A](/uf1/5.2.png)

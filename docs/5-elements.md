@@ -23,7 +23,7 @@ Aquestes dades emmagatzemades poden ser de dos tipus **variables** o **constants
 > ```
 >
 > La dada amb nom `edat` té assignada la posició de memòria `0X0003`. En aquesta posició és on està guardat el valor d'edat en aquest cas `30`.
-> ![Imatge de la dada edat guardada en memòria](img/4.1.png)
+> ![Imatge de la dada edat guardada en memòria](/uf1/4.1.png)
 
 ### 5.1.1 Constants
 
