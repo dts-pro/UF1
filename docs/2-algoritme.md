@@ -17,7 +17,6 @@ Si ens centrem en aquest últim, s’ha de detallar els passos necessaris per a 
 > - **Dada d'eixida**: Tassa de café.
 > - **Procediment**:
 >
->
 > 1. Buscar un bon café mòlt.
 > 2. Col·locar aigua en la cafetera.
 > 3. Afegir café mòlt en el filtre de la cafetera.

@@ -1,4 +1,4 @@
-# 5. Elements d'un Programa
+# 5. Elements d'un programa
 
 ## 5.1 Dades
 
@@ -79,7 +79,7 @@ Les variables són elements el valor dels quals pot canviar al llarg de l'execuc
 > - Valor de la dada: quantitat per preu
 > ```
 
-## 5.2 Expressions i Operadors
+## 5.2 Expressions i operadors
 
 ### 5.2.1 Expressions
 
@@ -111,8 +111,8 @@ A continuació es descriuen els tipus d'operadors més comuns:
   > ```plaintext
   > edat ← 30
   > ```
-  >
-  > **Explicació**: S'assigna a la variable `edat` el valor `30`.
+  
+  **Explicació**: S'assigna a la variable `edat` el valor `30`.
 
 - **Operadors Aritmètics:** `+`, `-`, `*`, `/`, `MOD` Serveixen per a realitzar càlculs matemàtics.
   > ***Exemple:***
@@ -120,8 +120,8 @@ A continuació es descriuen els tipus d'operadors més comuns:
   > ```plaintext
   > total ← preu * quantitat
   > ```
-  >
-  > **Explicació**: S'assigna a la variable `total` el valor del resultat de l'operació aritmètica de multiplicació dels valors de les variables `preu` i `quantitat`.
+  
+  **Explicació**: S'assigna a la variable `total` el valor del resultat de l'operació aritmètica de multiplicació dels valors de les variables `preu` i `quantitat`.
 
 - **Operadors de Concatenació:** `&` Serveixen per a unir textos.
   > ***Exemple:***
@@ -129,17 +129,17 @@ A continuació es descriuen els tipus d'operadors més comuns:
   > ```plaintext
   > missatge ← "Hola " & nom
   > ```
-  >
-  > **Explicació**: S'assigna a la variable `missatge` el valor del resultat de l'operació que concatena la paraula `Hola` amb el valor de la variable `nom`.
-  >
+  
+  **Explicació**: S'assigna a la variable `missatge` el valor del resultat de l'operació que concatena la paraula `Hola` amb el valor de la variable `nom`.
+  
 - **Operadors de Comparació:** `=`, `<>`, `<`, `>`, `<=`, `>=` Serveixen per a comparar condicions i sempre retornen V (Vertader) o F (Fals).
   > ***Exemple:***
   >
   > ```plaintext
   > esValid ← edat ≥ 18
   > ```
-  >
-  > **Explicació**: S'assigna a la variable `esValid` el valor del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és major o igual a `18`. Si és així retornarà V, en cas contrari retornarà F.
+  
+  **Explicació**: S'assigna a la variable `esValid` el valor del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és major o igual a `18`. Si és així retornarà V, en cas contrari retornarà F.
 - **Operadors Lògics:** `I`, `O`, `NO` Serveixen per a unir múltiples operadors condicionals. Per a conéixer el resultat dels operadors lògics es poden utilitzar les seues taules de veritat.
 
 #### Taula de veritat
@@ -162,8 +162,8 @@ Al valor, resultat de cada operació de comparació, el cridarem **"Entrada"**
   > ```plaintext
   > esValid ← NO(edat ≥ 18)
   > ```
-  >
-  > **Explicació**: S'assigna a la variable `esValid` el valor **contrari** al del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és major o igual a `18`. Si l'edat és major o igual a `18` retornarà F, en cas contrari retornarà V.
+  
+  **Explicació**: S'assigna a la variable `esValid` el valor **contrari** al del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és major o igual a `18`. Si l'edat és major o igual a `18` retornarà F, en cas contrari retornarà V.
 
 - **O (Disjunció)**: Requereix que es complisca alguna de les entrades per a retornar vertader.
 
@@ -179,13 +179,13 @@ Al valor, resultat de cada operació de comparació, el cridarem **"Entrada"**
   > ```plaintext
   > esValid ← (edat ≥ 18) O (edat < 65)
   > ```
-  >
-  > **Explicació**:
-  >
-  >1. Es verifica el valor del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és major o igual a `18` (Entrada A).
-  >2. Després es verifica el valor del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és menor que `65` (Entrada B).
-  >3. Si el valor d'alguna de les dues entrades (A o B) és V, el valor de l'operació O serà V i s'assignarà a `esValid`.
-  >4. Si el valor de les dues entrades (A i B) és F, el valor de l'operació O serà F i s'assignarà a `esValid`.
+  
+  **Explicació**:
+  
+  1. Es verifica el valor del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és major o igual a `18` (Entrada A).
+  2. Després es verifica el valor del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és menor que `65` (Entrada B).
+  3. Si el valor d'alguna de les dues entrades (A o B) és V, el valor de l'operació O serà V i s'assignarà a `esValid`.
+  4. Si el valor de les dues entrades (A i B) és F, el valor de l'operació O serà F i s'assignarà a `esValid`.
 
 - **I (Conjunció)**: Requereix que es complisquen totes les entrades per a retornar vertader.
 
@@ -201,15 +201,15 @@ Al valor, resultat de cada operació de comparació, el cridarem **"Entrada"**
   > ```plaintext
   > esValid ← (edat ≥ 18) I (ciutat = "València")
   > ```
-  >
-  > **Explicació**:
-  >
-  >1. Es verifica el valor del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és major o igual a `18` (Entrada A).
-  >2. Després es verifica el valor del resultat de l'operació de comparació que verifica si el valor de la variable `ciutat` és `València` (Entrada B).
-  >3. Si el valor d'alguna de les dues entrades (A o B) és F, el valor de l'operació I serà F i s'assignarà a `esValid`.
-  >4. Si el valor de les dues entrades (A i B) és V, el valor de l'operació I serà V i s'assignarà a `esValid`.
+  
+  **Explicació**:
+  
+  1. Es verifica el valor del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és major o igual a `18` (Entrada A).
+  2. Després es verifica el valor del resultat de l'operació de comparació que verifica si el valor de la variable `ciutat` és `València` (Entrada B).
+  3. Si el valor d'alguna de les dues entrades (A o B) és F, el valor de l'operació I serà F i s'assignarà a `esValid`.
+  4. Si el valor de les dues entrades (A i B) és V, el valor de l'operació I serà V i s'assignarà a `esValid`.
 
-### 5.2.3 Prioritat i Direccionament d'Operadors
+### 5.2.3 Prioritat i direccionament d'operadors
 
 Quan en una expressió apareixen moltes operacions diferents és necessari en quin ordre cal realitzar les operacions per a aconseguir el resultat correcte.
 

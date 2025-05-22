@@ -19,8 +19,10 @@ natural.
 >
 > En el següent exemple es poden veure dos algoritmes que indiquen si un nombre és parell o imparell. Ambdós realitzen la mateixa tasca, però l'algoritme B és més eficient que l'algoritme A. Això es deu al fet que l'algoritme B tarda un temps constant, mentre que l'algoritme A tardarà més com més gran siga el valor de "n".
 >
+>:::tabs
+>
+>==Algoritme A
 > ```
-> Algoritme A:
 > INICI
 >   1. Escriure "Introdueix valor per a n".
 >   2. Llegir n.  
@@ -30,8 +32,9 @@ natural.
 > FI
 > ```
 >
+>==Algoritme B
+>
 > ```
-> Algoritme B:
 > INICI
 >   1. Escriure "Introdueix valor per a n".
 >   2. Llegir n.  
@@ -40,6 +43,8 @@ natural.
 >   5. Si no, escriure "És imparell"
 > FI
 > ```
+>
+>:::
 >
 > En crear un algoritme, no sols és important que realitze la seua tasca, sinó que també siga eficient i consuma la menor quantitat de recursos possible.
 
@@ -50,12 +55,10 @@ algoritmes utilitzant símbols connectats entre ells.
 
 Els símbols bàsics que equivalen als elements d'un algoritme són els següents:
 
-| **Descripció**                                                                                 | **Exemple**                                                                            |
-| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| **Les línies** connecten els símbols per a indicar la seqüència de les accions en l'algoritme. | <div class="element row" style="border:none"><div class="line vertical"></div></div>   |
-| **Els rectangles** representen les accions.                                                    | <div class="element rectangle">Accions</div>                                           |
-| **Els paral·lelograms** representen les operacions d'entrada/eixida.                           | <div class="element parallelogram"><span>Operacions de <br>entrada/eixida</span></div> |
-| **Els rombes** representen les decisions i repeticions.                                        | <div class="element diamond"><span>Decisions i repeticions</span></div>                |
+- **Les línies** connecten els símbols per a indicar la seqüència de les accions en l'algoritme.
+- **Els rectangles** representen les accions.
+- **Els paral·lelograms** representen les operacions d'entrada/eixida.
+- **Els rombes** representen les decisions i repeticions.
 
 
 > ***Exemple: Diagrama de flux de l'algoritme A***
