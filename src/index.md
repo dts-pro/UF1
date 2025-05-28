@@ -102,6 +102,8 @@ Kit de desenvolupament Java necessari per compilar i executar programes. Es reco
 
 ::: details 🔗 Enllaços d'interès
 
+- [**Compilador Java Online**](https://pythontutor.com/java.html#mode=edit)  
+Compilador i debugger visual pas a pas, amb suport per a Java, Python, C i C++;
 - [**pildorasinformaticas (YouTube)**](https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk)  
 Canal molt conegut en espanyol amb tutorials clars sobre Java i programació orientada a objectes.
 - [**w3schools Java Tutorial**](https://www.w3schools.com/java/)  
