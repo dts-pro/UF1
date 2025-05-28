@@ -36,9 +36,7 @@ export default ({
       ]}
     ],
     sidebar: [
-      {
-
-        items: [
+      { text: '📚 Continguts', items: [
           { text: '1. Introducció', link: '/1-introduccio' },
           { text: '2. Algoritme', link: '/2-algoritme' },
           { text: '3. Cicle de Vida', link: '/3-cicle-vida' },
