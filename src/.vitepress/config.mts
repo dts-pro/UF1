@@ -31,8 +31,8 @@ export default ({
         { text: '3. Cicle de Vida', link: '/3-cicle-vida' },
         { text: "4. Representació d'Algoritmes", link: '/4-algoritmes' },
         { text: "5. Elements d'un Programa", link: '/5-elements' },
-        { text: "💡Exemples", link: '/6-exemples' },
-        { text: "✏️Exercicis", link: '/7-exercicis' },
+        { text: "Exemples", link: '/6-exemples' },
+        { text: "Exercicis", link: '/7-exercicis' },
       ]}
     ],
     sidebar: [
@@ -44,8 +44,8 @@ export default ({
           { text: '3. Cicle de Vida', link: '/3-cicle-vida' },
           { text: "4. Representació d'Algoritmes", link: '/4-algoritmes' },
           { text: "5. Elements d'un Programa", link: '/5-elements' },
-          { text: "Exemples", link: '/6-exemples' },
-          { text: "Exercicis", link: '/7-exercicis' },
+          { text: "💡Exemples", link: '/6-exemples' },
+          { text: "✏️Exercicis", link: '/7-exercicis' },
           { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
           { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
         ]
