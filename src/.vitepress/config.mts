@@ -4,10 +4,10 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 // https://vitepress.dev/reference/site-config
 export default ({
   lang: 'ca-ES',
-  title: 'Títol',
+  title: 'uf1',
   description: 'Descripció',
-  base: '/',
-  outDir: './dist',
+  base: '/UF1/',
+  outDir: '../docs',
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
@@ -46,8 +46,8 @@ export default ({
           { text: "5. Elements d'un Programa", link: '/5-elements' },
           { text: "Exemples", link: '/6-exemples' },
           { text: "Exercicis", link: '/7-exercicis' },
-          { text: '<img src="./img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-          { text: '<img src="./img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+          { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+          { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
         ]
       }
     ],
