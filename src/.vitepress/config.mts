@@ -4,7 +4,7 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 // https://vitepress.dev/reference/site-config
 export default ({
   lang: 'ca-ES',
-  title: 'uf1',
+  title: 'UF1',
   description: 'Descripció',
   base: '/UF1/',
   outDir: '../docs',

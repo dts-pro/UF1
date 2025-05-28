@@ -1,4 +1,4 @@
-# UF01. Fonaments de Programació
+# Curs de programació
 
 ::: tip Informació del curs
 **Professors:** Guillermo Garrido Portes / David Tur Sanmateu
@@ -11,16 +11,15 @@
 
 :::
 
-
 ::: info Benvinguts al Curs
 Aquest curs està dissenyat per introduir-vos als fonaments essencials de la programació. Aprendreu els conceptes bàsics, les metodologies i les eines necessàries per començar la vostra trajectòria en el món del desenvolupament de programari.
 :::
 
 ## Continguts del Curs {.animate-title}
 
-::: details Accés Ràpid als Continguts
+::: details Unitats Formatives del curs
 
-- 📋 [**Objectius del Curs**](./objectius.md)  
+- [**UF1. Fonaments de programació**](https://ggpro-java.github.io/UF1/)  
   Exploració dels objectius i competències a assolir
   
 :::
