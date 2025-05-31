@@ -3,6 +3,12 @@ on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write    # Ara sí el GITHUB_TOKEN tindrà permisos d'escriptura
+  pages: write
+  id-token: write    # si no utilitzes id-token, pots ometre aquesta línia
+  
 jobs:
   build:
     if: ${{ github.actor != 'github-actions[bot]' }}
