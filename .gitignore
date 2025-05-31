@@ -13,7 +13,7 @@ dist-ssr
 *.local
 
 # Build output (local only, not committed)
-docs/
+#docs/
 
 # Editor directories and files
 .vscode/*
