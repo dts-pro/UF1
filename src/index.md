@@ -110,3 +110,23 @@ Canal molt conegut en espanyol amb tutorials clars sobre Java i programació ori
 Guia interactiva i senzilla per començar amb Java des del navegador.
 
 :::
+
+# Efectes de cursor
+
+<div class="container">
+  <a href="https://example.com/pointer" target="_blank">
+    <div class="cursor-box pointer">Pointer</div>
+  </a>
+  <a href="https://example.com/pointer" target="_blank">
+    <div class="cursor-box pointer">Pointer</div>
+  </a>
+  <a href="https://example.com/pointer" target="_blank">
+    <div class="cursor-box pointer">Pointer</div>
+  </a>
+  <a href="https://example.com/pointer" target="_blank">
+    <div class="cursor-box pointer">Pointer</div>
+  </a>
+  <a href="https://example.com/pointer" target="_blank">
+    <div class="cursor-box pointer">Pointer</div>
+  </a>
+</div>
