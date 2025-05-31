@@ -17,6 +17,11 @@ jobs:
         run: npm ci
       - name: Build docs
         run: npx vitepress build src
+      - name: Debug token and remote
+        run: |
+          echo "Repository: ${{ github.repository }}"
+          echo "Token present? ${{ secrets.GITHUB_TOKEN != '' }}"
+          git remote -v
       - name: Add .nojekyll file
         run: touch docs/.nojekyll
       - name: Set up authentication for push
