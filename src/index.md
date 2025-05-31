@@ -111,7 +111,7 @@ Guia interactiva i senzilla per començar amb Java des del navegador.
 
 :::
 
-# Efectes de cursor_a
+# Efectes de cursor_aaa
 
 <div class="container">
   <a href="https://example.com/pointer" target="_blank">
