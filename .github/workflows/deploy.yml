@@ -1,54 +1,31 @@
 name: Build VitePress Docs
-
 on:
   push:
     branches:
       - main
-
-permissions:
-  contents: write       # per permetre que el workflow faci git push
-  pages: write          # per permetre que el workflow publiqui a GitHub Pages
-  id-token: write       # (només si tens futur ús d’ID token; sinó, pots eliminar-lo)
-
 jobs:
   build:
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - name: Install dependencies
         run: npm ci
-
       - name: Build docs
         run: npx vitepress build src
-
       - name: Add .nojekyll file
         run: touch docs/.nojekyll
-
-      # ----------------------------
-      # Opcional: comprova permisos
-      - name: Verify GITHUB_TOKEN permissions
-        run: |
-          echo "Permissions for GITHUB_TOKEN:"
-          echo "  Contents: ${{ job.permissions.contents }}"
-          echo "  Pages:    ${{ job.permissions.pages }}"
-      # ----------------------------
-
       - name: Set up authentication for push
         run: |
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f docs
           git commit -m "chore: update docs [skip ci]" || echo "No changes to commit"
-          git push origin HEAD:main
+          git push
