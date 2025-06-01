@@ -7,15 +7,15 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
     /*padding: 2rem;*/
     max-width: 800px;
 }
 
 .cursor-box {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 40px;
     /*background-color: #ff0000;*/
     border-radius: 12px;
     display: flex;
