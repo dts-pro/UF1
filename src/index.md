@@ -19,51 +19,51 @@ Aquest curs està dissenyat per introduir-vos als fonaments essencials de la pro
 
 :::: details Unitats Formatives del curs
 
-::: tip [**UF1. Fonaments de programació**](https://ggpro-java.github.io/UF1/)  
+::: tip [**UF1. Fonaments de programació**](https://dts-pro.github.io/UF1/)  
   Introducció a la lògica computacional i els conceptes bàsics de programació.
 :::
 
-::: tip [**UF2. Representació d'algoritmes**](https://ggpro-java.github.io/UF2/)  
+::: tip [**UF2. Representació d'algoritmes**](https://dts-pro.github.io/UF2/)  
   Eines i tècniques per dissenyar algoritmes mitjançant diagrames de flux i pseudocodi.
 :::
 
-::: tip [**UF3. Introducció a Java**](https://ggpro-java.github.io/UF3/)  
+::: tip [**UF3. Introducció a Java**](https://dts-pro.github.io/UF3/)  
   Primers passos amb el llenguatge Java: sintaxi bàsica, tipus de dades i estructura d’un programa.
 :::
 
-::: tip [**UF4. Bucles**](https://ggpro-java.github.io/UF4/)  
+::: tip [**UF4. Bucles**](https://dts-pro.github.io/UF4/)  
   Ús d’estructures repetitives com `while`, `for` i `do-while` per controlar el flux del programa.
 :::
 
-::: tip [**UF5. Vectors**](https://ggpro-java.github.io/UF5/)  
+::: tip [**UF5. Vectors**](https://dts-pro.github.io/UF5/)  
   Declaració, ús i manipulació de vectors per emmagatzemar dades estructurades.
 :::
 
-::: tip [**UF6. Funcions**](https://ggpro-java.github.io/UF6/)  
+::: tip [**UF6. Funcions**](https://dts-pro.github.io/UF6/)  
   Modularització del codi amb mètodes propis: declaració, paràmetres i retorn de valors.
 :::
 
-::: tip [**UF7. Programació Orientada a Objectes I**](https://ggpro-java.github.io/UF7/)  
+::: tip [**UF7. Programació Orientada a Objectes I**](https://dts-pro.github.io/UF7/)  
   Conceptes bàsics de la POO: classes, objectes, encapsulació i mètodes.
 :::
 
-::: tip [**UF8. Programació Orientada a Objectes II**](https://ggpro-java.github.io/UF8/)  
+::: tip [**UF8. Programació Orientada a Objectes II**](https://dts-pro.github.io/UF8/)  
   Herència, polimorfisme, classes abstractes i interfícies.
 :::
 
-::: tip [**UF9. Excepcions**](https://ggpro-java.github.io/UF9/)  
+::: tip [**UF9. Excepcions**](https://dts-pro.github.io/UF9/)  
   Gestió d’errors mitjançant excepcions: `try`, `catch`, `throw` i `finally`.
 :::
 
-::: tip [**UF10. Fitxers**](https://ggpro-java.github.io/UF10/)  
+::: tip [**UF10. Fitxers**](https://dts-pro.github.io/UF10/)  
   Lectura i escriptura de fitxers de text i binaris amb les llibreries de Java.
 :::
 
-::: tip [**UF11. Interfícies gràfiques**](https://ggpro-java.github.io/UF11/)  
+::: tip [**UF11. Interfícies gràfiques**](https://dts-pro.github.io/UF11/)  
   Creació d’aplicacions amb interfície gràfica utilitzant JavaFX o Swing.
 :::
 
-::: tip [**UF12. Accés a base de dades**](https://ggpro-java.github.io/UF12/)  
+::: tip [**UF12. Accés a base de dades**](https://dts-pro.github.io/UF12/)  
   Connexió a bases de dades i execució de consultes SQL amb JDBC.
 :::
 ::::
@@ -114,19 +114,19 @@ Guia interactiva i senzilla per començar amb Java des del navegador.
 # Efectes de cursor
 
 <div class="container">
-  <a href="https://example.com/pointer" target="_blank">
-    <div class="cursor-box pointer">Pointer</div>
+  <a href="https://dts-pro.github.io/UF1/" target="_blank">
+    <div class="cursor-box pointer">UF1. Fonaments de la programació</div>
   </a>
-  <a href="https://example.com/pointer" target="_blank">
-    <div class="cursor-box pointer">Pointer</div>
+  <a href="https://dts-pro.github.io/UF2/" target="_blank">
+    <div class="cursor-box pointer">UF2. Representació d'algoritmes</div>
   </a>
-  <a href="https://example.com/pointer" target="_blank">
-    <div class="cursor-box pointer">Pointer</div>
+  <a href="https://dts-pro.github.io/UF3/" target="_blank">
+    <div class="cursor-box pointer">UF3. Introducció a Java</div>
   </a>
-  <a href="https://example.com/pointer" target="_blank">
-    <div class="cursor-box pointer">Pointer</div>
+  <a href="https://dts-pro.github.io/UF4/" target="_blank">
+    <div class="cursor-box pointer">UF4. Bucles</div>
   </a>
-  <a href="https://example.com/pointer" target="_blank">
-    <div class="cursor-box pointer">Pointer</div>
+  <a href="https://dts-pro.github.io/UF5/" target="_blank">
+    <div class="cursor-box pointer">UF5. Vectors</div>
   </a>
 </div>
