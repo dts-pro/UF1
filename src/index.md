@@ -112,7 +112,7 @@ Guia interactiva i senzilla per començar amb Java des del navegador.
 :::
 
 # Efectes de cursor
-<!--
+
 <div class="container">
   <a href="https://example.com/pointer" target="_blank">
     <div class="cursor-box pointer">Pointer</div>
@@ -130,4 +130,3 @@ Guia interactiva i senzilla per començar amb Java des del navegador.
     <div class="cursor-box pointer">Pointer</div>
   </a>
 </div>
--->

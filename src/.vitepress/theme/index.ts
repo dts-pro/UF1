@@ -4,7 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import customEnhanceApp from './enhanceApp'
 import './custom.css'
-//import './custom-effects.css'
+import './custom-effects.css'
 
 
 
