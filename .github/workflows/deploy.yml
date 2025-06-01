@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'src/**'                       # Només reacciona a canvis dins de src
+      - '.github/workflows/deploy.yml' # I si modifiques el propi workflow
 jobs:
   build:
     if: ${{ github.actor != 'github-actions[bot]' }}
