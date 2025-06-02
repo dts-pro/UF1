@@ -19,6 +19,25 @@ Aquest curs està dissenyat per introduir-vos als fonaments essencials de la pro
 
 :::: details Unitats Formatives del curs
 
+<div class="container">
+  <a href="https://dts-pro.github.io/UF1/" target="_blank">
+    <div class="cursor-box pointer">UF1. Fonaments de la programació</div>
+  </a>
+  <a href="https://dts-pro.github.io/UF2/" target="_blank">
+    <div class="cursor-box pointer">UF2. Representació d'algoritmes</div>
+  </a>
+  <a href="https://dts-pro.github.io/UF3/" target="_blank">
+    <div class="cursor-box pointer">UF3. Introducció a Java</div>
+  </a>
+  <a href="https://dts-pro.github.io/UF4/" target="_blank">
+    <div class="cursor-box pointer">UF4. Bucles</div>
+  </a>
+  <a href="https://dts-pro.github.io/UF5/" target="_blank">
+    <div class="cursor-box pointer">UF5. Vectors</div>
+  </a>
+</div>
+
+
 ::: tip [**UF1. Fonaments de programació**](https://dts-pro.github.io/UF1/)  
   Introducció a la lògica computacional i els conceptes bàsics de programació.
 :::
@@ -110,8 +129,6 @@ Canal molt conegut en espanyol amb tutorials clars sobre Java i programació ori
 Guia interactiva i senzilla per començar amb Java des del navegador.
 
 :::
-
-# Efectes de cursor
 
 <div class="container">
   <a href="https://dts-pro.github.io/UF1/" target="_blank">

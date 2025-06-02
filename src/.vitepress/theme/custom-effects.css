@@ -27,11 +27,18 @@
     padding: 1rem;
     position: relative;
     overflow: hidden; 
+    color: #ff7b00; /* Blanc */
+}
+
+.custom-block.details .cursor-box {
+    width: 520px;
 }
 
 .container a:hover {
-  background-color: #ffffff00; /* Blanc */
+  background-color: #ffffff00;
 }
+
+
 
 
 /*
@@ -45,11 +52,11 @@
     left: -100%;
     transition: all 0.5s ease;
 }*/
-
+/*
 .cursor-box:hover::before {
     top: 100%;
     left: 100%;
-}
+}*/
 
 /* Unique styles for each cursor type */
 .pointer {
@@ -60,14 +67,14 @@
 .pointer:hover {
     /*transform: scale(1.01) rotate(0.3deg);*/
     box-shadow: 0 0 25px #dc6d0583;
-    animation: pulse 2s normal;
+    animation: pulse 2s infinite;
 }
 
 /* Animations */
 
 @keyframes pulse {
-    0% { transform: scale(1.01) rotate(0.3deg); }
-    80% { transform: scale(1) rotate(0deg); }
+    50% { transform: scale(1.01) rotate(0.3deg); }
+    100% { transform: scale(1) rotate(0deg); }
 }
 /*
 @keyframes shake {
