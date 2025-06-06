@@ -26,8 +26,12 @@
     text-align: center;
     padding: 1rem;
     position: relative;
-    overflow: hidden; 
-    color: #ff7b00; /* Blanc */
+    overflow: hidden;
+    color:  #291d1d;
+}
+
+.dark .cursor-box {
+    color: #f8f1f1;
 }
 
 .custom-block.details .cursor-box {
@@ -61,12 +65,17 @@
 /* Unique styles for each cursor type */
 .pointer {
     cursor: pointer;
-    background: linear-gradient(145deg, #ff440085, #3e1c0097);
-    border: 2px solid #ff5100;
+    background: linear-gradient(145deg, rgba(237, 110, 81, 0.699), #d62e1fb4);
+    border: 2px solid #644032;
 }
+
+.dark .pointer{
+    border: 2px solid #df7146;
+}
+
 .pointer:hover {
     /*transform: scale(1.01) rotate(0.3deg);*/
-    box-shadow: 0 0 25px #dc6d0583;
+    box-shadow: 0 0 10px #8028127e;
     animation: pulse 2s infinite;
 }
 
@@ -75,6 +84,12 @@
 @keyframes pulse {
     50% { transform: scale(1.01) rotate(0.3deg); }
     100% { transform: scale(1) rotate(0deg); }
+}
+
+@media (prefers-color-scheme: dark) {
+  .cursor-box {
+    color: #ffffff !important;
+  }
 }
 /*
 @keyframes shake {

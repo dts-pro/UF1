@@ -17,7 +17,7 @@ Aquest curs està dissenyat per introduir-vos als fonaments essencials de la pro
 
 ## Continguts del curs {.animate-title}
 
-:::: details Unitats Formatives del curs
+<!-- :::: details Unitats Formatives del curs -->
 
 <div class="container">
   <a href="https://dts-pro.github.io/UF1/" target="_blank">
@@ -35,9 +35,30 @@ Aquest curs està dissenyat per introduir-vos als fonaments essencials de la pro
   <a href="https://dts-pro.github.io/UF5/" target="_blank">
     <div class="cursor-box pointer">UF5. Vectors</div>
   </a>
+  <a href="https://dts-pro.github.io/UF6/" target="_blank">
+    <div class="cursor-box pointer">UF6. Funcions</div>
+  </a>
+    <a href="https://dts-pro.github.io/UF7/" target="_blank">
+    <div class="cursor-box pointer">UF7. Programació Orientada a Objectes I</div>
+  </a>
+    <a href="https://dts-pro.github.io/UF8/" target="_blank">
+    <div class="cursor-box pointer">UF8. Programació Orientada a Objectes II</div>
+  </a>
+    <a href="https://dts-pro.github.io/UF9/" target="_blank">
+    <div class="cursor-box pointer">UF9. Excepcions</div>
+  </a>
+    <a href="https://dts-pro.github.io/UF10/" target="_blank">
+    <div class="cursor-box pointer">UF10. Fitxers</div>
+  </a>
+    <a href="https://dts-pro.github.io/UF11/" target="_blank">
+    <div class="cursor-box pointer">UF11. Interfícies gràfiques</div>
+  </a>
+    <a href="https://dts-pro.github.io/UF12/" target="_blank">
+    <div class="cursor-box pointer">UF12. Accés a base de dades</div>
+  </a>
 </div>
 
-
+<!--
 ::: tip [**UF1. Fonaments de programació**](https://dts-pro.github.io/UF1/)  
   Introducció a la lògica computacional i els conceptes bàsics de programació.
 :::
@@ -86,6 +107,8 @@ Aquest curs està dissenyat per introduir-vos als fonaments essencials de la pro
   Connexió a bases de dades i execució de consultes SQL amb JDBC.
 :::
 ::::
+-->
+
 
 <!--
 ## Metodologia {.animate-title}
@@ -129,21 +152,3 @@ Canal molt conegut en espanyol amb tutorials clars sobre Java i programació ori
 Guia interactiva i senzilla per començar amb Java des del navegador.
 
 :::
-
-<div class="container">
-  <a href="https://dts-pro.github.io/UF1/" target="_blank">
-    <div class="cursor-box pointer">UF1. Fonaments de la programació</div>
-  </a>
-  <a href="https://dts-pro.github.io/UF2/" target="_blank">
-    <div class="cursor-box pointer">UF2. Representació d'algoritmes</div>
-  </a>
-  <a href="https://dts-pro.github.io/UF3/" target="_blank">
-    <div class="cursor-box pointer">UF3. Introducció a Java</div>
-  </a>
-  <a href="https://dts-pro.github.io/UF4/" target="_blank">
-    <div class="cursor-box pointer">UF4. Bucles</div>
-  </a>
-  <a href="https://dts-pro.github.io/UF5/" target="_blank">
-    <div class="cursor-box pointer">UF5. Vectors</div>
-  </a>
-</div>

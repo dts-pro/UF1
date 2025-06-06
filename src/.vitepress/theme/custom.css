@@ -204,11 +204,24 @@
 }
 */
 
-.vp-doc ul li a {
-  text-decoration: none;
-  color: var(--vp-c-text-1);
-  transition: color var(--transition-standard);
+
+
+.vp-doc .details a{
+  color: var(--vp-c-brand-dark);
 }
+
+.vp-doc .details a:hover{
+  color: var(--vp-c-brand-dark);
+}
+
+.dark .details a{
+  color: var(--vp-c-brand-lighter);
+}
+
+.dark .details a:hover{
+  color: var(--vp-c-brand);
+}
+
 /*
 .vp-doc ul li a:hover {
   color: var(--vp-c-brand);
