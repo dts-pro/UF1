@@ -6,7 +6,7 @@ export default ({
   lang: 'ca-ES',
   title: 'UF1',
   description: 'Descripció',
-  base: '/UlsdjhfFdrhpgt1/UF1/',
+  base: '/UF1dfgsdh/',
   outDir: '../docs',
   markdown: {
     config(md) {
